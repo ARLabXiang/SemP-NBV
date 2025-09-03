@@ -2,6 +2,8 @@
 
 ## Project page for: SemP-NBV: Semantic Predictive Next-Best-View for Autonomous Plant 3D Reconstruction (IROS 2025)
 
+[Paper](IROS2025_BenchBot.pdf)
+
 ### TODO: More to update
 
 ### Subprojects (see instructions)
