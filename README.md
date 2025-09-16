@@ -9,7 +9,7 @@
 ### Subprojects (see instructions)
 * (EXE) For packaged UE5 simulation application, see [Globus download (~5GB)](https://app.globus.org/file-manager?origin_id=a8e2b46a-9f68-4752-ba44-812d5f310faa&origin_path=%2F)
 * (Editor) For UE5 project ***without*** the asset models (for blueprint/code viewing), see [https://github.com/NCSU-BAE-ARLab/AgriRoboSimUE5/tree/dev/AgriRoboSim2](https://github.com/NCSU-BAE-ARLab/AgriRoboSimUE5/tree/dev/AgriRoboSim2)
-* (ROS2) For ROS2-Humble project including the SemP-NBV planner (`benchbot_xarm6_cpp` and `pointr_predict` projects), see [https://github.com/XingjianL/UE5Sim_colcon_ws/tree/SemP-NBV](https://github.com/XingjianL/UE5Sim_colcon_ws/tree/SemP-NBV)
+* (ROS2) For ROS2-Humble project including the SemP-NBV planner (`benchbot_xarm6_cpp` and `pointr_predict` projects), see [https://github.com/XingjianL/UE5Sim_colcon_ws/tree/SemP-NBV](https://github.com/XingjianL/UE5Sim_colcon_ws/tree/SemP-NBV) and follow instructions in `environment_configuration.txt`.
 * AdaPoinTr checkpoint: [https://drive.google.com/drive/folders/1vt6djVtNlHejVu2klNQVRsKBoTQDHJMv?usp=sharing](https://drive.google.com/drive/folders/1vt6djVtNlHejVu2klNQVRsKBoTQDHJMv?usp=sharing)
 ### Instructions
 * Requirements: GPU better than RTX 3060, Windows 11 with WSL Ubuntu 22.04 (Simulation works in Windows 11, ROS2 works in WSL)
