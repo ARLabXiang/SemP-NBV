@@ -27,11 +27,12 @@
 #### (ROS2) 
 1. Clone the `(ROS2)` repo and follow the `environment_configuration.txt` instructions to set up the environment.
 2. Change all the absolute filepaths (marked by `lxianglabxing`) in the project code to your own.
-#### (Combined)
-1. Run `ros2 launch tomato_xarm6 upside_down_xarm6_moveit.launch.py` to start the ROS and ROSBridge for Windows-WSL communication.
-2. Start the (Simulator EXE) to confirm connections made.
-3. Start `python pointr_predict.py` to spin the ROS node for AdaPoinTr.
-4. Run `ros2 run benchbot_xarm6_cpp benchbot_xarm6_cpp` or `iros_test_auto.sh` (see `benchbot_xarm6_cpp/src/benchbot_xarm6_cpp.cpp` for args)
+#### (After installations)
+1. Remember to source environment for every new terminal.
+2. Run `ros2 launch tomato_xarm6 upside_down_xarm6_moveit.launch.py` to start the ROS and ROSBridge for Windows-WSL communication.
+3. Start the (Simulator EXE) and change levels to confirm connections made in above terminal.
+4. Start `python pointr_predict.py` to start the ROS node for AdaPoinTr and NBV planner.
+5. Run `ros2 run benchbot_xarm6_cpp benchbot_xarm6_cpp` or `iros_test_auto.sh` with various arguments (see `benchbot_xarm6_cpp/src/benchbot_xarm6_cpp.cpp` for args)
 
 ### Simulation Options
 #### Map Menu
