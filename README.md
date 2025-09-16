@@ -26,12 +26,12 @@
 3. The blueprints should still work, but cannot compile due to this issue.
 #### (ROS2) 
 1. Clone the `(ROS2)` repo and follow the `environment_configuration.txt` instructions to set up the environment.
-2. Change all the absolute filepaths (marked by `lxianglabxing`) in the project code to your own.
+2. Change all the absolute filepaths (marked by `lxianglabxing`) in the project code (such as CMake and various cpp/py files) to your own.
 #### (After installations)
 1. Remember to source environment for every new terminal.
 2. Run `ros2 launch tomato_xarm6 upside_down_xarm6_moveit.launch.py` to start the ROS and ROSBridge for Windows-WSL communication.
-3. Start the (Simulator EXE) and change levels to confirm connections made in above terminal.
-4. Start `python pointr_predict.py` to start the ROS node for AdaPoinTr and NBV planner.
+3. Start the (Simulator EXE) and change levels to confirm connections made in above terminal and change the simulation options.
+4. Navigate to `pointr_predict.py` and start `python pointr_predict.py` to run the ROS node for AdaPoinTr and NBV planner, remember to download the checkpoints.
 5. Run `ros2 run benchbot_xarm6_cpp benchbot_xarm6_cpp` or `iros_test_auto.sh` with various arguments (see `benchbot_xarm6_cpp/src/benchbot_xarm6_cpp.cpp` for args)
 
 ### Simulation Options
